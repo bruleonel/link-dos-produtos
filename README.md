@@ -22,3 +22,5 @@ Para executar este projeto localmente, siga estas etapas:
 
    ```bash
    git clone https://github.com/bruleonel/link-dos-produtos.git
+
+*Observação: Devido à limitações da publicação, não foi possível organizar os arquivos em pastas.*
