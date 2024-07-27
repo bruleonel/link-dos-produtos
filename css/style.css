@@ -1,0 +1,197 @@
+/* Estilos padrão */
+header {   
+    display: flex;
+    flex-direction: column; /* Alinha o conteúdo em coluna por padrão */
+    align-items: center;
+}
+
+.header_div_voltar {
+    position: relative;
+    align-items: flex-start;
+    color: #b56576;
+}
+
+#header_voltar {
+    padding: 20px;
+}
+
+.header_img_h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header_h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #b56576;
+    margin-top: 1rem; /* Ajusta a margem superior */
+}
+
+#header_logo {
+    height: 200px;
+    width: auto;
+}
+
+.content {
+    justify-content: center; 
+    background-color: #ff5cac3;
+    padding: 20px;
+    margin: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.menu_button {
+    padding: 15px 20px;
+    margin: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #b56576;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%;
+    
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu_button:hover {
+    background-color: #6d6875;
+}
+
+.link_button {
+    color: #ffffff;
+    background-color: #b56576;  
+}
+
+.instigacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f5cac3;
+    margin: 1rem 0;
+}
+
+.instigacao__texto {
+    color: #b56576;
+    text-align: center;
+    background-color: #f5cac3;
+}
+
+.instigacao__texto p, h2 {
+    background-color: #f5cac3;
+    padding: 1em;
+}
+.instigacao__imagem {
+    width: 100%;   
+    border-radius: 10px;
+    margin: 40px 0px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20ps 0px;
+}
+
+#link {
+    margin: 20px 0px;
+    
+}
+#whats {
+    background-color: #b56576;   
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px; /* Arredonda as bordas da imagem */
+}
+
+/* Efeito ao passar o mouse (hover) */
+#whats:hover {
+    cursor: pointer; /* Muda o cursor para indicar que a imagem é clicável */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil ao passar o mouse */
+}
+
+/* Efeito ao clicar (ativo) */
+#whats:active {
+    transform: scale(0.98); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+/* Responsividade para tablets e PCs */
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: row; /* Alinha o header em linha */
+        justify-content: center; /* Distribui espaço entre logo e título */
+        padding: 2rem;
+    }
+
+    .header_img_h1 {
+        flex-direction: row; /* Alinha logo e título em linha */
+        align-items: center; /* Alinha verticalmente */
+        justify-content: center; /* Centraliza o conteúdo */
+    }
+
+    #header_h1 {
+        font-size: 3em; 
+        margin-right: 1rem; 
+    }
+
+
+    .content {
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: row; /* Alinha os botões do menu em linha */
+        justify-content: space-around; /* Distribui os itens igualmente */
+    }
+
+    .menu_button {
+        padding: 10px 15px; /* Ajusta o padding dos botões */
+        margin: 5px; /* Ajusta a margem dos botões */
+        font-size: 1em; /* Ajusta o tamanho da fonte dos botões */
+        max-width: 200px; /* Define um tamanho máximo para botões */
+    }
+
+    .menu_button:hover {
+        background-color: #6d6875; /* Mantém a cor de hover dos botões */
+    }
+
+    .instigacao {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem;
+        background-color: #f5cac3;
+        margin: 1rem 0;
+    }
+
+    .instigacao__texto {
+        height: 200px;
+        width: 100%;
+        font-size: 1.5em;
+        color: #b56576;
+        text-align: center;
+        background-color: #f5cac3;
+    }
+
+    .instigacao__texto p, h2 {
+        background-color: #f5cac3;
+    }
+    .instigacao__imagem {
+        width: 50%;   
+        border-radius: 10px;
+    }
+}
+

@@ -1,0 +1,158 @@
+/* Estilos gerais do body e header */
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #fefaf6;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row; /* Alinha o conteúdo em linha */
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+    max-width: 1200px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+
+/* Estilos do search container e input */
+#search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; /* Espaço para separar do restante do conteúdo */
+}
+
+.search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* Ajuste conforme necessário */
+}
+
+#search {
+    padding: 10px 40px 10px 10px; /* Espaça o texto do ícone */
+    border: 2px solid #b56576;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #f8f8f8;
+    color: #333;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.icon {
+    position: absolute;
+    right: 10px; /* Ajusta o posicionamento do ícone dentro do input */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 24px;
+    pointer-events: none; /* Garante que o ícone não interfira com o clique no campo de entrada */
+    background: transparent; /* Remove qualquer fundo do ícone */
+}
+
+/* Estilos dos cards */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    gap: 10px; /* Espaçamento entre os cards */
+    padding: 20px;
+    max-width: 1200px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+
+.card {
+    background-color: #fff0e6;
+    border: 1px solid #e5d1c3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 100%; /* Ocupa a largura total do contêiner */
+    max-width: 250px; /* Largura máxima dos cards */
+    height: auto; /* Altura automática para o card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card .media {
+    background-color: #fff0e6;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo da mídia */
+}
+
+.card img, .card video {
+    max-width: 100%; /* Garante que a imagem ou vídeo não ultrapasse a largura do card */
+    max-height: 200px; /* Altura máxima para imagem ou vídeo */
+    object-fit: contain; /* Ajusta a imagem ou vídeo para caber no espaço sem distorção */
+    border-radius: 10px;
+}
+
+.card h2 {
+    background-color: #fff0e6;
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #6d6875;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card p {
+    background-color: #fff0e6;
+    font-size: 1em;
+    margin: 10px 0;
+    color: #6d6875;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #b56576;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+    font-family: 'Poppins', sans-serif;
+    width: 100%; /* Largura do botão igual à largura da imagem */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+}
+
+.card a:hover {
+    background-color: #6d6875;
+}
+
+/* Responsividade */
+@media screen and (min-width: 600px) {
+    .card {
+        width: calc(50% - 10px); /* Dois cards por linha */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: calc(33.33% - 10px); /* Três cards por linha */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: calc(25% - 10px); /* Quatro cards por linha */
+    }
+}
