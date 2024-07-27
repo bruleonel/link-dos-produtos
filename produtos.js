@@ -30,12 +30,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const h2 = document.createElement('h2');
             h2.textContent = product.title;
+            card.appendChild(h2);
+
+            const code = document.createElement('p');
+            code.textContent = `Código: ${product.code}`;
+            card.appendChild(code);
 
             const a = document.createElement('a');
             a.href = product.link;
             a.textContent = 'Ver mais';
-
-            card.appendChild(h2);
             card.appendChild(a);
 
             container.appendChild(card);
