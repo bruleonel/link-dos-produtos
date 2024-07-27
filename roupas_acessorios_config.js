@@ -1,5 +1,5 @@
 window.PRODUCTS = [
-    { title: 'Kit com 12 lápis labiais', img: '#', video: 'https://cvf.shopee.com.br/file/api/v4/11110166/mms/sg-11110166-6khwv-lxwc97g4etzc6b.default.mp4', link: 'https://s.shopee.com.br/7AJOMkB370', code: 'KIT12LAPIS' },
+    { title: 'Vestido Casual', img: 'https://down-br.img.susercontent.com/file/sg-11134201-7rd3k-lwp5h3p8n76f61', video: '', link: 'https://s.shopee.com.br/7zsdC51FTs', code: '3001' },
     { title: 'Caneta Delineadora Prática', img: 'https://down-br.img.susercontent.com/file/b8a4bd128c4df6ddbe2ef4e51f8279c1', video: '', link: 'https://s.shopee.com.br/A9wzsn2Kg5', code: 'CANETAPRA' },
     { title: 'Kit de Banho Maravilhoso de Melância', img: '#', video: 'https://cvf.shopee.com.br/file/api/v4/11110107/mms/br-11110107-6kfkr-lue2lgdxouj8e0.16000081713734689.mp4', link: 'https://s.shopee.com.br/5AYJw3NsHI', code: 'KITMELANCIA' },
     { title: 'Conjunto 2 Peças Gloss e Lápis Labial Efeito Matte', img: 'https://down-br.img.susercontent.com/file/cn-11134301-7r98o-llkgy8z9mcyca5', video: '', link: 'https://s.shopee.com.br/7fFeun1RP3', code: 'CONJUNTO2' },
