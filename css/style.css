@@ -131,7 +131,7 @@ footer {
 }
 
 /* Responsividade para tablets e PCs */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 640px) {
     header {
         flex-direction: row; /* Alinha o header em linha */
         justify-content: center; /* Distribui espaço entre logo e título */
@@ -155,9 +155,11 @@ footer {
     }
 
     .menu {
-        flex-direction: row; /* Alinha os botões do menu em linha */
-        justify-content: space-around; /* Distribui os itens igualmente */
+        flex-direction: row; /* Alinha o menu em linha */
+        flex-wrap: wrap; /* Permite que o menu se quebre em várias linhas */
+        justify-content: center;
     }
+
 
     .menu_button {
         padding: 10px 15px; /* Ajusta o padding dos botões */

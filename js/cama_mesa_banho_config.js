@@ -1,7 +1,7 @@
 window.PRODUCTS = [
-    { title: 'Ralador e Fatiador de Legumes', img: '', video: 'https://cvf.shopee.com.br/file/api/v4/11110105/mms/br-11110105-6kfkp-lnraads6s3lzf2.16000081699279907.mp4', link: 'https://s.shopee.com.br/7zsdMeriZ3', code: '2001' },
-    { title: '', img: '', video: '', link: '', code: '002' },
-    { title: '', img: '', video: '', link: '', code: '003' },
+    { title: 'Toalha de Banho Super Absorvente', img: 'https://down-br.img.susercontent.com/file/sg-11134301-7rces-lqxatznri20se2', video: '', link: 'https://s.shopee.com.br/qPfbip9uD', code: '4001' },
+    { title: 'Toalha de Banho Toquio 140cm x 75cm 360gr/m² 100% Algodão', img: 'https://down-br.img.susercontent.com/file/9a693a61f1803d5151fd0220ffe3d43b', video: '', link: 'https://s.shopee.com.br/qPfc2YHRa', code: '4002' },
+    /*{ title: '', img: '', video: '', link: '', code: '003' },
     { title: '', img: '', video: '', link: '', code: '004' },
     { title: '', img: '', video: '', link: '', code: '005' },
     { title: '', img: '', video: '', link: '', code: '006' },
@@ -24,6 +24,6 @@ window.PRODUCTS = [
     { title: '', img: '', video: '', link: '', code: '022' },
     { title: '', img: '', video: '', link: '', code: '023' },    
     { title: '', img: '', video: '', link: '', code: '024' },
-    { title: '', img: '', video: '', link: '', code: '025' }
+    { title: '', img: '', video: '', link: '', code: '025' }*/
 ];
 

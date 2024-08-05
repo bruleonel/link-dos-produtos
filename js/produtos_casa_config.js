@@ -1,7 +1,7 @@
 window.PRODUCTS = [
-    { title: 'Fonte Bebedouro Para Pets', img: '', video: 'https://cvf.shopee.com.br/file/api/v4/11110105/mms/br-11110105-6kfks-lub10aaznul0c4.16000081713550417.mp4', link: 'https://s.shopee.com.br/7UwMjvGzfm', code: '1001' },
-    { title: 'Comedouro Pet', img: '', video: 'https://cvf.shopee.com.br/file/api/v4/11110105/mms/br-11110105-6kfkr-lrgc9r0802t76d.16000081707334310.mp4', link: 'https://s.shopee.com.br/4pvbaGeJVt', code: '1002' },
-    { title: '', img: '', video: '', link: '', code: '003' },
+    { title: 'Ralador e Fatiador de Legumes', img: '', video: 'https://cvf.shopee.com.br/file/api/v4/11110105/mms/br-11110105-6kfkp-lnraads6s3lzf2.16000081699279907.mp4', link: 'https://s.shopee.com.br/7zsdMeriZ3', code: '2001' },
+    { title: 'Torneira Cozinha Gourmet', img: '', video: 'https://cvf.shopee.com.br/file/api/v4/11110105/mms/br-11110105-6kfkp-lsnsg1atr4eldb.16000081709964500.mp4', link: 'https://s.shopee.com.br/20bd13PtqD', code: '2002' },
+    /*{ title: '', img: '', video: '', link: '', code: '003' },
     { title: '', img: '', video: '', link: '', code: '004' },
     { title: '', img: '', video: '', link: '', code: '005' },
     { title: '', img: '', video: '', link: '', code: '006' },
@@ -24,5 +24,6 @@ window.PRODUCTS = [
     { title: '', img: '', video: '', link: '', code: '022' },
     { title: '', img: '', video: '', link: '', code: '023' },    
     { title: '', img: '', video: '', link: '', code: '024' },
-    { title: '', img: '', video: '', link: '', code: '025' }
+    { title: '', img: '', video: '', link: '', code: '025' }*/
 ];
+
